@@ -22,3 +22,8 @@ h1:hover{
     width:fit-content;
     background-color:darkorange;
 }
+
+p{
+    color:rgb(149, 180, 92);
+    border: 10px double orangered;
+}
