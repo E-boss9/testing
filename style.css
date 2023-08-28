@@ -1,0 +1,24 @@
+body{
+    background-color: rgba(166, 43, 43);
+    color:aquamarine;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left:30%;
+    right:30%;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 12px;
+    border-color: chartreuse;
+    padding:2%;
+}
+h1:hover{
+    color:bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: aqua;
+    border-style:solid;
+    border-left: 20%;
+    border-right: 20%;
+    width:fit-content;
+    background-color:darkorange;
+}
