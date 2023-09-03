@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+    </head>
+    <body>
+        <form action="/" >
+            <input type="text" value="something" name="name">
+            <input type="submit" value="Click Me">
+        </form>
+        {% if name %}
+            <h1>
+                {{name}}
+            </h1>
+        {% endif %}
+    </body>
+</html>

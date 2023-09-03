@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+	<title> test page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            display:flex;
+            flex-wrap: wrap;
+            color:aquamarine;
+            background-color: blueviolet;
+            border-style: solid;
+            border-radius: 50px;
+            border-width: 12px;
+            border-color: chartreuse;
+            padding: 2%;
+            padding-left:20%;
+            padding-right:20%;
+
+
+        }
+        h1:hover{
+            color:red;
+        }
+        #hovering_test{
+            width: 200px;
+            height: 200px;
+            color:yellow;
+        }
+        .cls{
+            border-color: red;
+            border-style: solid;
+            margin: 10px;
+            padding: 10px
+        }
+        @media(min-width:900px){
+            body{
+                background-color: blue; 
+            }
+        }
+
+        @media(max-width:700px;){
+            body{
+                background:yellowgreen;
+                color:blue;
+            }
+        }
+            
+    </style>
+</head>
+<body>
+	<h1 class="cls">Header test</h1>
+	<p class="cls" contenteditable="true">test pragraph</p>
+	<video class="cls" src="static/The Biggest Dreamer (Digimon Tamers but it's lofi hip-hop).mp4" type="mp4" controls width="90%" height="90%"> </video>
+    <form class="cls" action="https://www.youtube.com/results?">
+        <input class="cls" name="search_query" type="text" placeholder="Search youtube" list="tst_list">
+    </form>
+    <datalist id="tst_list" class="cls">
+        <option value="tst1"></option>
+        <option value="tst2"></option>
+        <option value="tst3"></option>
+        <option value="tst4"></option>
+    </datalist>
+    <div class="cls">
+        <form action="http://www.google.com/search?" class="cls">
+            <input type="radio" value="green" name="color">green
+            <input type="radio" value="green" name="color">green
+            <input type="radio" value="green" name="color">green
+            <input type="radio" value="green" name="color">green
+            <input type="button" name="q" >
+        </form>    
+    </div>
+    <div class="cls">
+        <form>
+            <input placeholder="Reguler Expressions" type="text" pattern="^[a-zA-Z]+\.[0-9]+\.[a-zA-Z0-9]+@[0-9]{3}\.[a-zA-Z]+$" name="regtst">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    <form class="cls">
+        <select>
+            <option value="tst1">tst1</option>
+            <option value="tst2">tst2</option>
+            <option value="tst3">tst3</option>
+            <option value="tst4">tst4</option>
+        </select>
+        <button type="submit" name="select_tst">submit</button>
+        </form>
+        <div style="width:100px" id="hovering_test" class="cls" >
+            hello
+        </div>
+</body>
